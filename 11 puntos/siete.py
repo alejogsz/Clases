@@ -4,8 +4,8 @@ class CuentaBancaria:
         self.propietarios = propietarios
         self.balance = balance
 
-propietarios = ["Juan Pérez", "María Gómez"]
-cuenta1 = CuentaBancaria("123456789", propietarios, 5000.0)
+propietarios = ["Juancho", "sofia"]
+cuenta1 = CuentaBancaria("49852741", propietarios, 5000.0)
 
 print(f"Número de cuenta: {cuenta1.numero_cuenta}")
 print(f"Propietarios: {', '.join(cuenta1.propietarios)}")
